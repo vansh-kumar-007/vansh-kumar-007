@@ -138,9 +138,9 @@ class Vansh:
 <!-- ── SPOTIFY ───────────────────────────────────────────────── -->
 ### 🎵 Recently Played
 
-<div align="center">
+<div data-importer="music" align="center">
   <a href="https://open.spotify.com/user/3i35o6ztjhve08y6cj9zfo8av">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=3i35o6ztjhve08y6cj9zfo8av&count=5&unique=false" alt="Spotify recently played"/>
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=3i35o6ztjhve08y6cj9zfo8av" alt="Spotify recently played" />
   </a>
 </div>
 
