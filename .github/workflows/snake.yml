@@ -1,0 +1,37 @@
+# .github/workflows/snake.yml
+# Generates the contribution grid snake animation daily
+# and commits the SVG output to the `output` branch.
+# The README references that branch to always show a fresh snake.
+
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 07:00 UTC daily (just before the Kaggle ping)
+  workflow_dispatch:        # manual trigger to generate immediately
+
+permissions:
+  contents: write           # needs write to commit the SVG to output branch
+
+jobs:
+  generate:
+    name: Generate contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: vansh-kumar-007
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
