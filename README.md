@@ -122,7 +122,7 @@ vansh = {
 
 <div align="center">
 
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=natemoo-re&show_offline=true&background_color=0d1117&interchange=true&bar_color=00ff41&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=3i35o6ztjhve08y6cj9zfo8av&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&hide_remaster=false)](https://github.com/kittinan/spotify-github-profile)
 
 </div>
 
@@ -168,7 +168,7 @@ vansh = {
 [![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=00FF41&label=vansh--kumar--portfolio.vercel.app)](https://vansh-kumar-portfolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/vanshkumar007)
 [![Kaggle](https://img.shields.io/badge/Kaggle-0D1117?style=for-the-badge&logo=kaggle&logoColor=20BEFF)](https://kaggle.com/vanshkumar007)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:your.email@gmail.com)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:vanshkumar.fds@gmail.com)
 
 </div>
 

@@ -39,7 +39,7 @@ This uses the `spotify-github-profile` service. Takes ~2 minutes:
 3. After login, you'll see your Spotify User ID — copy it
 4. In `README.md`, find this line (appears twice):
    ```
-   uid=YOUR_SPOTIFY_USER_ID
+   uid=3i35o6ztjhve08y6cj9zfo8av
    ```
 5. Replace `YOUR_SPOTIFY_USER_ID` with your actual Spotify ID (e.g. `31abc...xyz`)
 
