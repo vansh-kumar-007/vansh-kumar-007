@@ -136,12 +136,20 @@ class Vansh:
 ---
 
 <!-- ── SPOTIFY ───────────────────────────────────────────────── -->
-### 🎵 Recently Played
+### 🎵 Music
 
 <div align="center">
-  <a href="https://open.spotify.com/user/3i35o6ztjhve08y6cj9zfo8av">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=3i35o6ztjhve08y6cj9zfo8av&count=5&unique=true" alt="Spotify recently played"/>
-  </a>
+
+<!-- NOW PLAYING — updates live when you're listening to something -->
+<a href="https://www.last.fm/user/vansh_kumar_007">
+  <img src="https://lastfm-profile-readme.vercel.app/api/vansh_kumar_007?color=0d1117&textColor=ffffff&isRounded=true&displayName=true" alt="Now playing"/>
+</a>
+
+<!-- RECENTLY PLAYED — always shows last 5 tracks -->
+<a href="https://www.last.fm/user/vansh_kumar_007">
+  <img src="https://lastfm-recently-played.vercel.app/api?user=vansh_kumar_007&count=5&loved=true&bg_color=0D1117&color=1DB954&line_color=1DB954&point_color=1DB954" alt="Recently played"/>
+</a>
+
 </div>
 
 ---
